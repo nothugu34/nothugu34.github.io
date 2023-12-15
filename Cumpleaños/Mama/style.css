@@ -1,0 +1,42 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: center;
+    font-size: calc(150% + 25 px);
+    width: auto;
+    height: auto;
+}
+
+#Christian{
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#JS{
+    color: tomato;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#Cuarteto{
+    color: goldenrod;
+    font-weight: bold;
+    text-decoration: underline;
+}
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
