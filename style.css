@@ -1,0 +1,100 @@
+body{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#botonCliente, #botonProveedor{
+    margin: 5px 5px 5px 5px;
+    padding: 2px 2px 2px 2px;
+}
+
+.hidden{
+    display: none;
+}
+
+form{
+    background-color: burlywood;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+form p{
+    background-color: burlywood;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+input[type="text"], input[type="submit"], input[type="email"], input[type="password"]{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover{
+    background-color: #2980b9;
+}
+
+footer{
+    background-color: burlywood;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+#Eleccion{
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    background-color: burlywood;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    font-size: large;
+}
+
+button{
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: medium;
+}
+
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
