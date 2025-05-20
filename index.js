@@ -43,8 +43,8 @@ function procesarTexto(texto) {
     while ((match = regex.exec(textoUnido)) !== null) {
         const [_, fecha, descripcion, _id, valorStr] = match;
         const valor = parseFloat(valorStr.replace(/,/g, ''));
-        const cargo = valor < 0 ? Math.abs(valor).toFixed(2) : '';
-        const abono = valor >= 0 ? valor.toFixed(2) : '';
+        const cargo = valor < 0 ? parseInt(Math.abs(valor).toFixed(2)) : '';
+        const abono = valor >= 0 ? parseInt(valor.toFixed(2)) : '';
         movimientos.push({ fecha, descripcion, cargo, abono });
     }
 
