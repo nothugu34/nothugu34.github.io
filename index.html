@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertir PDF de MP a TXT o Excel</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+</head>
+<body>
+    <main>
+        <div>
+            <h2>Subir archivo pdf de movimientos de MP para convertirlo a TXT</h2>
+            <input type="file" id="archivoPDFATXT" accept=".pdf">
+            <button onclick="convertirATXT()">Convertir a TXT</button>
+        </div>
+        <div>
+            <h2>Subir archivo pdf de movimientos de MP para convertirlo a Excel</h2>
+            <input type="file" id="archivoPDFAExcel" accept=".pdf">
+            <button onclick="convertirAExcel()">Convertir a Excel</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
