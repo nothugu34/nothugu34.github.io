@@ -82,8 +82,11 @@ async function convertirAExcel() {
         Abono: d.abono
     }));
 
-    const wb = XLSX.utils.book_new();
     const ws = XLSX.utils.json_to_sheet(hoja);
+    const colWidths = hoja.map((_, _colIdx) => ({ wch: 25 }));
+    ws['!cols'] = colWidths;
+
+    const wb = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(wb, ws, "Movimientos");
 
     XLSX.writeFile(wb, "movimientos.xlsx");
